@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import {variables} from './Variables.js';
 
+import {
+    isValidName
+} from "./utils";
+
 export class Department extends Component{
 
     constructor(props){
@@ -159,8 +163,8 @@ export class Department extends Component{
             DepartmentName
         }=this.state;
 
-        return(
-<div>
+    return(
+    <div>
 
     <button type="button"
     className="btn btn-primary m-2 float-end"

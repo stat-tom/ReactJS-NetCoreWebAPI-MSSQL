@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import {variables} from './Variables.js';
 
+import {
+    isValidName
+} from "./utils";
+
 export class Employee extends Component{
 
     constructor(props){
